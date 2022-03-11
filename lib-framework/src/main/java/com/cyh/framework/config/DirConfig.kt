@@ -1,11 +1,11 @@
-package com.cyh.base.config
+package com.cyh.framework.config
 
 import android.os.Environment
 
 /**
- * create by libo
- * create on 2018/11/13
- * description 存储路径配置
+ * Description:DirConfig
+ * @Author: chenyihui
+ * Date: 2022/3/9
  */
 object DirConfig {
     /**

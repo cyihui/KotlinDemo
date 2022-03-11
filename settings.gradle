@@ -16,3 +16,4 @@ rootProject.name = "KotlinDemo"
 include ':app'
 include ':lib-network'
 include ':lib-base'
+include ':lib-framework'

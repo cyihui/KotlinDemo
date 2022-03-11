@@ -1,9 +1,6 @@
 package com.cyh.network.service
 
-import android.app.Application
-import android.content.Context
-import android.os.Environment
-import com.cyh.base.config.DirConfig
+import com.cyh.framework.config.DirConfig
 import com.cyh.network.interceptor.HeaderInterceptor
 import com.cyh.network.interceptor.LoggingInterceptor
 import com.cyh.network.interceptor.NetCacheInterceptor
