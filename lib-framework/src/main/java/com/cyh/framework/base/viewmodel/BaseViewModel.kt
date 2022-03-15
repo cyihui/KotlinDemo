@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.lifecycle.*
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.cyh.framework.base.livedata.BaseLiveData
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.onCompletion
@@ -15,7 +16,7 @@ import kotlinx.coroutines.flow.onStart
  * Date: 2022/3/9
  */
 open class BaseViewModel(application: Application) : AndroidViewModel(application) {
-
+    var baseLiveData = BaseLiveData()
     val mStateLiveData = MutableLiveData<State>()
 
     fun <T> liveDataEx(block: suspend () -> T) = liveData {

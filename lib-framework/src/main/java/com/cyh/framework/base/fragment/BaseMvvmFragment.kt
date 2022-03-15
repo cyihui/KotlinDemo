@@ -45,14 +45,14 @@ abstract class BaseMvvmFragment<V : ViewDataBinding, VM : BaseViewModel> : BaseL
     }
 
     protected fun createViewModel(): VM {
-        return  ViewModelProvider(this)[genericTypeViewModel()]
+        return ViewModelProvider(this)[genericTypeViewModel()]
 //        return ViewModelProviders.of(this).get(genericTypeViewModel())
     }
 
     /**
      * 获取参数Variable
      */
-    fun getBindingVariable() = BR._all
+    fun getBindingVariable() = BR.viewModel
 
     /**
      * 获取当前类泛型viewmodel的Class类型

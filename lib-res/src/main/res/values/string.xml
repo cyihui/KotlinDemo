@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="splash_recomend">每日精选视频推介，让你打开眼界</string>
+    <string name="splash_recomend_en">Daily applizer for your eyes. Bon eyepetit.</string>
+    <string name="exit_app">再按一次退出</string>
+    <string name="homepage">首页</string>
+    <string name="community">社区</string>
+    <string name="notification">通知</string>
+    <string name="mine">我的</string>
+    <string name="find">发现</string>
+    <string name="recommend">推荐</string>
+    <string name="daily">日报</string>
+    <string name="look_homepage">查看个人主页</string>
+    <string name="collection">收藏</string>
+    <string name="cache">缓存</string>
+    <string name="plus_focus">+关注</string>
+    <string name="my_focus">我的关注</string>
+    <string name="view_record">观看记录</string>
+    <string name="notice_toggle">通知开关</string>
+    <string name="my_tag">我的徽章</string>
+    <string name="feedback">意见反馈</string>
+    <string name="contribute">我要投稿</string>
+    <string name="get_psd">找回密码</string>
+    <string name="login_tips">登录后即可关注作者、 \n 发表评论、同步收藏视频和播放记录</string>
+    <string name="input_phone">请输入手机号/邮箱地址</string>
+    <string name="input_psd">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="user_register">用户注册</string>
+    <string name="auth_login">作者登录</string>
+    <string name="login_protocal_tip">登录或注册即同意开眼</string>
+    <string name="user_service_protocal">用户服务协议</string>
+    <string name="click_publish_comment">点击发表你的评论</string>
+    <string name="reply">回复</string>
+    <string name="addvertise">广告</string>
+    <string name="wifi_preload">WIFI预载</string>
+    <string name="push">推送</string>
+    <string name="interaction">互动</string>
+    <string name="private_letter">私信</string>
+    <string name="dont_miss_msg">别错过重要信息</string>
+    <string name="login_can_use">登录后即可查看评论回复、点赞及关注等通知信息</string>
+    <string name="login_can_focus">点击登录后可关注主题和作者</string>
+    <string name="focus">关注</string>
+</resources>

@@ -44,14 +44,14 @@ abstract class BaseMvvmActivity<V : ViewDataBinding, VM : BaseViewModel> : BaseA
      * 创建viewModel
      */
     protected fun createViewModel(): VM {
-        return  ViewModelProvider(this)[genericTypeViewModel()]
+        return ViewModelProvider(this)[genericTypeViewModel()]
 //        return ViewModelProviders.of(this).get(genericTypeViewModel())
     }
 
     /**
      * 获取参数Variable
      */
-    private fun getBindingVariable() = BR._all
+    private fun getBindingVariable() = BR.viewModel
 
     /**
      * 获取当前类泛型viewmodel的Class类型
