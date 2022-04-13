@@ -1,0 +1,16 @@
+plugins {
+    id 'kotlin-kapt'
+}
+
+kapt {
+    arguments {
+        arg("AROUTER_MODULE_NAME", project.getName())
+    }
+}
+
+dependencies {
+//    implementation rootProject.ext.dependencies["arouter-api"]
+//    kapt rootProject.ext.dependencies["arouter-compiler"]
+    implementation 'com.alibaba:arouter-api:1.5.2'
+    kapt 'com.alibaba:arouter-compiler:1.5.2'
+}
